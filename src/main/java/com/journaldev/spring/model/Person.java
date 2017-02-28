@@ -13,6 +13,10 @@ import javax.persistence.Table;
  * @author pankaj
  *
  */
+
+System.out.println("this is perosnal");
+
+Sys
 @Entity
 @Table(name="PERSON")
 public class Person {
@@ -31,6 +35,7 @@ public class Person {
 	}
 
 	public void setId(int id) {
+		System.out.println("this is perosnal");
 		this.id = id;
 	}
 
