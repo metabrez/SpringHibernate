@@ -40,6 +40,7 @@ public class Person {
 	}
 
 	public String getName() {
+		System.out.println("this is my name");
 		return name;
 	}
 
